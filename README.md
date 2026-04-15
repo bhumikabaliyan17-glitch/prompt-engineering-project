@@ -23,7 +23,7 @@ Build a tool that helps prompt engineers test different prompting strategies (ze
 - Learned GitHub Pages deployment
 
 ## 🔗 Live Demo
-[Add GitHub Pages link here after deployment]
+[repo:bhumikabaliyan17-glitch/prompt-engineering-project ]
 
 ## 📧 Contact
 [bhumika-baliyan] - [bhumikabaliyan17@gmail.com]
