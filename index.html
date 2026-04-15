@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prompt Engineering Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🚀 Prompt Engineering Playground</h1>
+        <p>Test your prompts and see AI responses</p>
+
+        <div class="input-group">
+            <label>📝 Your Prompt:</label>
+            <textarea id="promptInput" rows="4" placeholder="Example: Explain machine learning in 2 lines for a 5-year-old..."></textarea>
+            <div class="char-count"><span id="charCount">0</span> characters</div>
+        </div>
+
+        <div class="button-group">
+            <button id="submitBtn">✨ Generate Response</button>
+            <button id="clearBtn">🗑️ Clear</button>
+        </div>
+
+        <div class="output-group">
+            <label>🤖 AI Response:</label>
+            <div id="outputBox" class="output-box">
+                Your response will appear here...
+            </div>
+            <button id="copyBtn" style="display:none;">📋 Copy Response</button>
+        </div>
+
+        <div class="tips">
+            <h3>💡 Prompt Engineering Tips:</h3>
+            <ul>
+                <li>Be specific and clear</li>
+                <li>Add context and examples (few-shot)</li>
+                <li>Use chain-of-thought: "Let's think step by step"</li>
+                <li>Assign a role: "Act as a..."</li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
